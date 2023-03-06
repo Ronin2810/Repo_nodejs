@@ -27,3 +27,10 @@ const lodash_pkg = require('lodash')
 items = [1,[2,[3]]]
 new_items = lodash_pkg.flattenDeep(items)
 console.log(new_items);
+
+
+//git remote add origin git@github.com:Ronin2810/Repo_nodejs.git
+// git branch -M main
+// git push -u origin main
+// create a .gitignore file and add "/node_modules" to it because we can't upload big files on git
+// the user who clones the repo just needs to run the following command to install all the required packages: $ npm install
