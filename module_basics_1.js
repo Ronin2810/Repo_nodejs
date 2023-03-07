@@ -6,6 +6,10 @@
 // module: info about current module
 // process: info about the environmentwhere the program is being executed
 
+// two ways to run node: 
+// REPL (read eval print loop) on terminal(node js shell)
+// CLI (Command line interfaces) runing .js files on terminal
+
 console.log("Directory Name: "+__dirname);
 console.log("File Name: "+__filename);
 function sayHI(name) {
