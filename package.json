@@ -5,14 +5,15 @@
   "main": "fs-module-async.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node npm-basics.js",
-    "dev":"nodemon npm-basics.js"
+    "start": "node npm-basics.js",
+    "dev": "nodemon npm-basics.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
