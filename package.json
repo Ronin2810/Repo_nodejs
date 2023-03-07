@@ -4,10 +4,13 @@
   "description": "",
   "main": "fs-module-async.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node npm-basics.js",
+    "dev":"nodemon npm-basics.js"
   },
   "keywords": [],
   "author": "",
+  "type":"module",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",

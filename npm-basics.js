@@ -24,7 +24,7 @@
 // and check the changes in package.json and the file system
 
 const lodash_pkg = require('lodash')
-items = [1,[2,[3]]]
+items = [1,[2,[3,[4]]]]
 new_items = lodash_pkg.flattenDeep(items)
 console.log(new_items);
 
@@ -34,3 +34,8 @@ console.log(new_items);
 // git push -u origin main
 // create a .gitignore file and add "/node_modules" to it because we can't upload big files on git
 // the user who clones the repo just needs to run the following command to install all the required packages: $ npm install
+
+
+// in the package.json ,in scripts we can write "start":"npm app.js" to automatically run the following command after typing npm start in terminal 
+// in the package.json ,in scripts we can write "dev": "nodemon app.js" and on terminal $ npm run dev 
+// nodemon runs like a server and any changes in code file(app.js) will be reflected on terminal ; here you don't need to restart/recompile the program
